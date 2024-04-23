@@ -1,23 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Página inicial - Winda's</title>
 </head>
+
 <body>
-    
+
     <div class="header">
         <div class="container">
-            <img src="img/logo_windas.svg">
+            <a href="#menu"> <img src="img/logo_windas.svg"></a>
             <ul class="navbar">
-                <li>Inicial</li>
-                <li>Simulador</li>
-                <li>Sobre nós</li>
-                <li>Fale conosco</li>
+                <a href="#menu">
+                    <li>Inicial</li>
+                </a>
+                <a href="#sobre-nos">
+                    <li>Sobre nós</li>
+                </a>
+                <a href="#simulador">
+                    <li>Simulador</li>
+                </a>
+                <a href="#fale-conosco">
+                    <li>Fale conosco</li>
+                </a>
             </ul>
             <div class="header-button">
                 <button class="button-login"> Login </button>
@@ -25,87 +37,134 @@
             </div>
         </div>
     </div>
-    
+
     <main>
-        <section class="conteudo-principal">
+        <section class="conteudo-principal" id="menu">
             <div class="conteudo-principal-escrito">
                 <h1 class="conteudo-principal-escrito-titulo">Abra-se para um mundo de eficiência e conforto</h1>
-                <p class="conteudo-principal-escrito-paragrafo">Desenvolvemos softwares para melhorar o 
+                <p class="conteudo-principal-escrito-paragrafo">Desenvolvemos softwares para melhorar o
                     armazenamento de produtos, impulsionando o lucro e o futuro.</p>
-                    <button class="conteudo-principal-escrito-botao">Cadastrar</button>
+                <button class="conteudo-principal-escrito-botao">Cadastrar</button>
             </div>
-          
+
         </section>
 
         <section class="conteudo-nossa-solucao">
             <h1 class="conteudo-nossa-solucao-titulo">NOSSA SOLUÇÃO</h1>
-            <p class="conteudo-nossa-solucao-paragrafo1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Bibendum amet at molestie mattis.</p>
-                <div class="conteudo-nossa-solucao-escrito">
-                    <p>Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.</p>
-                    <p>Id eros pellentesque facilisi id mollis faucibus commodo enim.</p>
-                    <p>Nunc, pellentesque velit malesuada non massa arcu.</p>
-                    <p>Nunc, pellentesque velit malesuada non massa arcu.</p>
-                </div>
-                <button class="conteudo-nossa-solucao-botao" >sei lá</button>
+            <p class="conteudo-nossa-solucao-paragrafo1">Saiba mais como funcionamos e as tecnologias que utilizamos!</p>
+            <div class="conteudo-nossa-solucao-escrito">
+                <p>Sensores de Temperatura e Umidade dentro do quarto do seu hotel, trazendo monitoramento constante para o seu...</p>
+                <p>Sensores de Proximidade para saber sobre o status da janela do seu quarto</p>
+                <p>Monitoramento constante da temperatura ambiente do seu quarto!!</p>
+                <p>Conquistando uma saúde melhor, não só para o mundo, mas também para todos!!</p>
+            </div>
+            <button class="conteudo-nossa-solucao-botao">Nosso diagrama</button>
+        </section>
+
+        <section class="conteudo-sobre-nos" id="sobre-nos">
+            <div class="conteudo-nossa-solucao">
+                <h1 class="conteudo-nossa-solucao-titulo">SOBRE NÓS</h1>
+                <p class="conteudo-nossa-solucao-paragrafo1"> Conheça mais sobre nossa equipe de Fundadores!
+                   </p>
+                <p>Rhoncus morbi et augue nec, in id ullamcorper at sit. Condimentum sit nunc in eros scelerisque sed.
+                    Commodo in viverra nunc, ullamcorper ut. Non, amet, aliquet scelerisque nullam sagittis, pulvinar.
+                    Fermentum scelerisque sit consectetur hac mi. Mollis leo eleifend ultricies purus iaculis.</p>
+            </div>
         </section>
         
-        <section class="conteudo-sobre-nos"> 
-            <div class="conteudo-nossa-solucao">
-            <h1 class="conteudo-nossa-solucao-titulo">SOBRE NÓS</h1>
-            <p class="conteudo-nossa-solucao-paragrafo1"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Bibendum amet at molestie mattis.</p>
-                <p>Rhoncus morbi et augue nec, in id ullamcorper at sit. Condimentum sit nunc in eros scelerisque sed. Commodo in viverra nunc, ullamcorper ut. Non, amet, aliquet scelerisque nullam sagittis, pulvinar. Fermentum scelerisque sit consectetur hac mi. Mollis leo eleifend ultricies purus iaculis.</p>
-                </div>
-        </section>
-
+       <center> <div class="container-slider">
         <section class="nossa-equipe">
-            <div class="conteudo-nossa-equipe">
-                <!-- <h1 class="nossa-equipe-titulo">NOSSO TIME</h1> -->
-                <img src="img/frizza.jpeg" alt="">
-                <h2 class="conteudo-nossa-equipe-titulo">Nome da pessoa</h2>
+            <button id="prev-button" class="prev-button control"><img src="/img/right-arrow.png" alt=""></button>
+            <div class="conteudo-nossa-equipe" id="conteudonossaequipe">
+                <img src="img/frizza.jpeg" alt="" class="slider current-slider">
+                <h2 class="conteudo-nossa-equipe-titulo">Amanda</h2>
                 <p class="conteudo-nossa-equipe-paragrafo">UI Designer & Co-founder</p>
                 <div class="conteudo-nossa-equipe-icons">
-                    <i class="fa-brands fa-github"></i>
+                    <a href="https://github.com/amandaantunes05" target="_blank"><i class="fa-brands fa-github"></i></a>
                     <i class="fa-brands fa-linkedin-in"></i>
                 </div>
-                <button class="button-nossa-equipe">Entrar em contato</button>
+                <a href="mailto:amanda.leal@sptech.school"> <button class="button-nossa-equipe">Entrar em contato</button></a>
             </div>
 
             <div class="conteudo-nossa-equipe">
-                <img src="img/frizza.jpeg" alt="">
-                <h2 class="conteudo-nossa-equipe-titulo">Nome da pessoa</h2>
+                <img src="img/frizza.jpeg" alt="" class="slider">
+                <h2 class="conteudo-nossa-equipe-titulo">Gustavo R</h2>
                 <p class="conteudo-nossa-equipe-paragrafo">UI Designer & Co-founder</p>
                 <div class="conteudo-nossa-equipe-icons">
-                    <i class="fa-brands fa-github"></i>
+                    <a href="https://github.com/GustavoRizerioDev" target="_blank"><i class="fa-brands fa-github"></i></a>
                     <i class="fa-brands fa-linkedin-in"></i>
                 </div>
-                <button class="button-nossa-equipe">Entrar em contato</button>
+                <a href="mailto:gustavo.rsouza@sptech.school"> <button class="button-nossa-equipe">Entrar em contato</button></a>
+            </div>
+            <div class="conteudo-nossa-equipe">
+                <img src="img/frizza.jpeg" alt="" class="slider">
+                <h2 class="conteudo-nossa-equipe-titulo">Gustavo Luz</h2>
+                <p class="conteudo-nossa-equipe-paragrafo">UI Designer & Co-founder</p>
+                <div class="conteudo-nossa-equipe-icons">
+                    <a href="https://github.com/GustavoLuzz" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+                <a href="mailto:gustavo.barros@sptech.school"> <button class="button-nossa-equipe">Entrar em contato</button></a>
+            </div>
+            <div class="conteudo-nossa-equipe">
+                <img src="img/frizza.jpeg" alt="" class="slider">
+                <h2 class="conteudo-nossa-equipe-titulo">Letícia Santos</h2>
+                <p class="conteudo-nossa-equipe-paragrafo">UI Designer & Co-founder</p>
+                <div class="conteudo-nossa-equipe-icons">
+                    <a href="https://github.com/letfonsecaa" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+                <a href="mailto:leticia.santos@sptech.school"> <button class="button-nossa-equipe">Entrar em contato</button></a>
+            </div>
+
+            <div class="conteudo-nossa-equipe ">
+                <img src="img/frizza.jpeg" alt="" class="slider">
+                <h2 class="conteudo-nossa-equipe-titulo">Murilo Barros</h2>
+                <p class="conteudo-nossa-equipe-paragrafo">UI Designer & Co-founder</p>
+                <div class="conteudo-nossa-equipe-icons">
+                <a href="https://github.com/MuriloNasciment0" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+                <a href="mailto:murilo.barros@sptech.school"> <button class="button-nossa-equipe">Entrar em contato</button></a>
+            </div>
+            
+             
+            <div class="conteudo-nossa-equipe">
+                <img src="img/frizza.jpeg" alt="" class="slider">
+                <h2 class="conteudo-nossa-equipe-titulo">Sara Letícia</h2>
+                <p class="conteudo-nossa-equipe-paragrafo">UI Designer & Co-founder</p>
+                <div class="conteudo-nossa-equipe-icons">
+                    <a href="https://github.com/sara-nsantos" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+                <a href="mailto:sara.santos@sptech.school"> <button class="button-nossa-equipe">Entrar em contato</button></a>
             </div>
 
             <div class="conteudo-nossa-equipe">
-                <img src="img/frizza.jpeg" alt="">
-                <h2 class="conteudo-nossa-equipe-titulo">Nome da pessoa</h2>
+                <img src="img/frizza.jpeg" alt="" class="slider">
+                <h2 class="conteudo-nossa-equipe-titulo">Vinícius Pajor</h2>
                 <p class="conteudo-nossa-equipe-paragrafo">UI Designer & Co-founder</p>
                 <div class="conteudo-nossa-equipe-icons">
-                    <i class="fa-brands fa-github"></i>
+                    <a href="https://github.com/sara-nsantos" target="_blank"><i class="fa-brands fa-github"></i></a>
                     <i class="fa-brands fa-linkedin-in"></i>
                 </div>
-                <button class="button-nossa-equipe">Entrar em contato</button>
+                <a href="mailto:sara.santos@sptech.school"> <button class="button-nossa-equipe">Entrar em contato</button></a>
             </div>
+            <button id="next-button" class="next-button control"><img src="img/right-arrow.png" alt=""></button>
         </section>
+    </div>
 
-        <section class="simulador">
+        <section class="simulador" id="simulador">
             <div class="conteudo-simulador">
                 <h1 class="conteudo-simulador-titulo">SIMULADOR FINANCEIRO</h1>
                 <p>Entenda melhor suas perdas financeiras e qual seria a diminuição
                     delas ao utilizar nossa solução.</p>
-                  <center><img src="img/man-calculator.png" alt=""></center>  
-                  <center><button> Acessar Simulador Financeiro </button></center> 
+                <center><img src="img/man-calculator.png" alt=""></center>
+                <center><button> Acessar Simulador Financeiro </button></center>
             </div>
         </section>
 
-        <section class="conteudo-fale-conosco">
+        <section class="conteudo-fale-conosco" id="fale-conosco">
             <div class="fale-conosoco">
                 <h1 class="conteudo-fale-conosco-titulo"> CONTATO </h1>
                 <p class="conteudo-fale-conosco-paragrafo">Envie a sua dúvida</p>
@@ -115,16 +174,17 @@
                     <p>E-mail</p>
                     <input type="text" placeholder="Digite seu e-mail">
                     <p>Assunto</p>
-                    <input type="text" placeholder="Digite o assunto"> 
+                    <input type="text" placeholder="Digite o assunto">
                     <p>Descrição</p>
                     <input type="text" id="input-sobre-duvida" placeholder="Explique-nos a sua dúvida">
-                    <center><button>Enviar mensagem</button></center>
+                  <a href="mailto:windas@sptech.school"><center><button>Enviar mensagem</button></center></a>  
                 </div>
             </div>
+        </div>
         </section>
     </main>
 
-     <footer>
+    <footer>
         <img src="img/logo_windas.svg" alt="">
         <p class="footer-escrito">Winda’s @ 2024. All rights reserved.</p>
         <div class="footer-imagens">
@@ -133,6 +193,52 @@
             <i class="fa-brands fa-instagram"></i>
             <i class="fa-brands fa-linkedin-in"></i>
         </div>
-    </footer> 
+    </footer>
 </body>
+
 </html>
+
+<script>
+    const controls = document.querySelectorAll('.control');
+    // const btnPrev = document.getElementById('prev-button');
+    // const btnNext = document.getElementById('next-button');
+
+    let currentSliders = 0;
+
+    const items = document.querySelectorAll('.slider');
+
+    const maxItems = items.length;
+
+    controls.forEach(control => {
+        control.addEventListener('click', () => {
+            const btnLef = control.classList.contains('prev-button');
+
+            if(btnLef){
+                currentSliders -= 1;
+            } else{
+                currentSliders += 1;
+            }
+
+            if (currentSliders >= maxItems){
+                currentSliders = 0;
+            }
+
+            if (currentSliders < 0){
+                currentSliders = maxItems -1;
+            }
+
+            items.forEach(slider => 
+            slider.classList.remove('current-slider'));
+                items[currentSliders].scrollIntoView({
+                    inline: 'center',
+                    behavior: 'smooth',
+                    block: "nearest"
+                });
+
+                items[currentSliders].classList.add('current-slider');
+        });
+    })
+
+    
+
+</script>
