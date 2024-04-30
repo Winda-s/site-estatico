@@ -111,13 +111,14 @@ button.button-login:hover {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background: url('../img/hotel.jpg');
+    background: url('../img/hotel2.jpg');
+    /*filter: brightness(100) contrast(1.2);*/
     background-size: cover;
     background-position: center;
     font-weight: bold;
     /* filter: grayscale(30%); */
     /* filter: brightness(90%); */
-    filter: brightness(79%);
+    /*filter: brightness(79%);*/
 }
 
 .conteudo-principal-escrito .conteudo-principal-escrito-titulo {

@@ -104,7 +104,6 @@ button.button-login:hover {
 
 
 /* Definições do conteudo da imagem */
-
 .conteudo-principal {
     height: 43.75rem;
     display: flex;
@@ -114,9 +113,7 @@ button.button-login:hover {
     background: url('img/hotel.jpg');
     background-size: cover;
     background-position: center;
-    /* filter: grayscale(30%); */
-    /* filter: brightness(90%); */
-    filter: brightness(79%);
+    /*filter: brightness(110%);*/
 }
 
 .conteudo-principal-escrito .conteudo-principal-escrito-titulo {
@@ -125,7 +122,8 @@ button.button-login:hover {
     font-family: "Lato", sans-serif;
     font-weight: 700;
     font-size: 3.3125rem;
-    color: var(--azul-titulo);
+    /*color: var(--azul-titulo);*/
+    /*color: #00386a*/ 
     max-width: 53.75rem;
     line-height: 1.3;
 }
@@ -161,7 +159,7 @@ button.button-login:hover {
 
 /* Conteúdo nossa solucao */
 .conteudo-nossa-solucao {
-    background-color: #faf8f8;
+    /*background-color: #faf8f8;*/
     width: 100%;
     text-align: center;
     padding: 4.0625rem 0;
@@ -176,17 +174,8 @@ button.button-login:hover {
 }
 
 .conteudo-nossa-solucao-paragrafo1 {
-    font-weight: 700;
-    font-size: 1.5625rem;
     padding: 0 0 3.75rem;
-}
-
-.conteudo-nossa-solucao-escrito {
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    gap: 6.25rem;
-    padding: 5%;
+    background: url(/img/hotel.jpg);
 }
 
 /* Conteúdo do sobre nós */
@@ -419,6 +408,7 @@ footer {
 .footer-imagens i {
     margin: 1.25rem .8125rem;
     font-size: 1.5rem;
+    padding-right: 90px;
 }
 
 
